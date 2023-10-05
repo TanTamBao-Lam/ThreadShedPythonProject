@@ -7,7 +7,7 @@ All day, for each transaction, the name of the customer, amount spent, types of 
 
 
 # Instruction
-## Break up `daily_sales` in easy to understand lists `customers`, `sales`, and `thread_sold`.
+### Break up `daily_sales` in easy to understand lists `customers`, `sales`, and `thread_sold`.
 1. First, take a minute to inspect the string daily_sales in the code editor.
 How is each transaction stored? How is each piece of data within the transaction stored?
 Start thinking about how we can split up this string into its individual pieces of data.
@@ -46,7 +46,7 @@ Append the threads sold to thread_sold.
 
 12. Print customers, sales, and thread_sold to make sure each list is what you are expected.
 
-## Determine the total value of the days sales.
+### Determine the total value of the days sales.
 
 13. Now we want to know how much Thread Shed made in a day.
 First, define a variable called total_sales and set it equal to 0.
@@ -58,7 +58,7 @@ Iterate through sales and for each item, strip off the $, set it equal to a floa
 15. Print total_sales.
 How much did we make today?
 
-## How much thread of any specific color was sold?
+### How much thread of any specific color was sold?
 
 16. Finally, we want to determine how many of each color thread we sold today. Let’s start with a single color, and then we’ll generalize it.
 First, print out thread_sold and inspect it.
